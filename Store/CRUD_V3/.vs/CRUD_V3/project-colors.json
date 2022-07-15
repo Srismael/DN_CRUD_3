@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc7dc87c-d1b2-475c-a7d2-326978c26f14": {
+      "ProjectGuid": "fc7dc87c-d1b2-475c-a7d2-326978c26f14",
+      "DisplayName": "Store.Core",
+      "ColorIndex": 0
+    },
+    "76944f61-5d84-4388-a14d-cb438c24d122": {
+      "ProjectGuid": "76944f61-5d84-4388-a14d-cb438c24d122",
+      "DisplayName": "Store.ApplicationService",
+      "ColorIndex": 1
+    },
+    "1d9eae26-5fe0-4f6e-9d80-ab20d7c0fed8": {
+      "ProjectGuid": "1d9eae26-5fe0-4f6e-9d80-ab20d7c0fed8",
+      "DisplayName": "Store.DataAccess",
+      "ColorIndex": 2
+    },
+    "9b43536b-5a82-4adf-8832-52d73f9a2dd0": {
+      "ProjectGuid": "9b43536b-5a82-4adf-8832-52d73f9a2dd0",
+      "DisplayName": "Store.Api",
+      "ColorIndex": 3
+    },
+    "70d6e87d-df80-4b6d-85cf-f295c6a6c280": {
+      "ProjectGuid": "70d6e87d-df80-4b6d-85cf-f295c6a6c280",
+      "DisplayName": "docker-compose",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

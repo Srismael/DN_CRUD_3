@@ -1,0 +1,17 @@
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.ApplicationService.deps.json
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.ApplicationService.dll
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\ref\Store.ApplicationService.dll
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.ApplicationService.pdb
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.Core.dll
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.DataAccess.dll
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.Core.pdb
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net5.0\Store.DataAccess.pdb
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.csproj.AssemblyReference.cache
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.csproj.CopyComplete
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.dll
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\ref\Store.ApplicationService.dll
+C:\Users\Ismael\source\repos\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net5.0\Store.ApplicationService.pdb

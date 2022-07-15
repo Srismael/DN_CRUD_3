@@ -1,0 +1,41 @@
+version: '3.4'
+
+volumes:
+  dataFiles_store:
+  
+
+services:
+  #DataBase Service
+  logsstore:
+    #Pull the latest mysql image
+    image: mysql:8.0.22
+    #Map port 3306 on the mysql container to port 3306 in the host
+    ports:
+      - "3395:3306"
+    #Specify where the persisted Data should be stored
+    volumes:
+      - dataFiles_sale:/var/lib/mysql
+      #- "~/sql-scripts/setup.sql:/docker-entrypoint-initdb.d/1.sql"
+    restart: always
+    #Specify Environment Variables for mysql
+    environment: 
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_DATABASE: store
+  
+  sale.api:
+    image: ${DOCKER_REGISTRY-}storeapi
+    build:
+      context: .
+      dockerfile: Store.Api/Dockerfile
+    depends_on: 
+      - logsstore
+    #Map port 5000 in the docker container to port 80 in the Api
+    ports:
+      - "5022:80"
+      - "787:443"
+    restart: always
+    #Specify Environment Variables for the Api Service
+    environment: 
+      - ASPNETCORE_ENVIRONMENT=Development
