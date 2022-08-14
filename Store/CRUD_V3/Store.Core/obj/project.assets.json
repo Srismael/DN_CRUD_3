@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Ismael\\.nuget\\packages\\": {}
@@ -13,26 +13,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
       "projectName": "Store.Core",
-      "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
+      "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
       "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\obj\\",
+      "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",

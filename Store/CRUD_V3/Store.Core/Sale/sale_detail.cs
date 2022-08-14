@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Store.Core.Inventories;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,12 +10,14 @@ namespace Store.Core.Sale
 {
     public class sale_detail
     {
-        [Key]
         public int Id { get; set; }
-
         public int Id_sale { get; set; }
 
         public int Id_product { get; set; }
+
+        public product product { get; set; }
+
+        public sale sale { get; set; }
 
         public int quantity { get; set; }
 

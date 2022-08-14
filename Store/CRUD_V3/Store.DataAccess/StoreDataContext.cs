@@ -16,16 +16,23 @@ namespace Store.DataAccess
         {
 
         }
-        public DbSet<user> Users { get; set; }
+        public virtual DbSet<user> Users { get; set; }
 
-        public DbSet<sale> sales { get; set; }
+        public virtual DbSet<sale> sales { get; set; }
 
-        public DbSet<sale_detail> salesdetail { get; set; }
+        public virtual DbSet<sale_detail> salesdetail { get; set; }
 
-        public DbSet<brand> brands { get; set; }
+        public virtual DbSet<brand> brands { get; set; }
 
-        public DbSet<category> categories { get; set; }
+        public virtual DbSet<category> categories { get; set; }
 
-        public DbSet<product> products { get; set; }
+        public virtual DbSet<product> products { get; set; }
+
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<sale_detail>().HasKey(vi => new { vi.Id_product, vi.Id_sale });
+        }
     }
 }

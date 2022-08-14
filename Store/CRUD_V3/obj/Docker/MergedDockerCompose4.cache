@@ -1,0 +1,59 @@
+services:
+  logsstore:
+    environment:
+      MYSQL_DATABASE: store
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+    image: mysql:8.0.22
+    ports:
+    - published: 3398
+      target: 3306
+    restart: always
+    volumes:
+    - dataFiles_store:/var/lib/mysql:rw
+  store.api:
+    build:
+      context: C:\Users\Ismael\source\repos\DN_CRUD_3\Store\CRUD_V3
+      dockerfile: Store.Api/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Store.Api
+      target: base
+    container_name: Store.Api
+    depends_on:
+      logsstore:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      DOTNET_USE_POLLING_FILE_WATCHER: '1'
+      NUGET_FALLBACK_PACKAGES: ''
+    image: storeapi:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Store.Api.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5022
+      target: 80
+    - target: 80
+    - published: 787
+      target: 443
+    - target: 443
+    restart: always
+    tty: true
+    volumes:
+    - C:\Users\Ismael\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.Api:/app:rw
+    - C:\Users\Ismael\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Ismael\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Ismael\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Ismael\.nuget\packages:/root/.nuget/packages:ro
+    - C:\Users\Ismael\source\repos\DN_CRUD_3\Store\CRUD_V3:/src:rw
+version: '3.4'
+volumes:
+  dataFiles_store: {}

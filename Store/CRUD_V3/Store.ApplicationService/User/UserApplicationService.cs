@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Store.Core.User;
 using Store.DataAccess.Repositories;
 using System;
@@ -13,10 +14,12 @@ namespace Store.ApplicationService.User
     {
         private readonly IRepository<int, user> _repository;
 
+        //private readonly IMapper _mapper;
 
-        public UserApplicationService(IRepository<int, user> repository)
+        public UserApplicationService(IRepository<int, user> repository /*, IMapper mapper*/)
         {
             _repository = repository;
+            //_mapper = mapper;
 
         }
 

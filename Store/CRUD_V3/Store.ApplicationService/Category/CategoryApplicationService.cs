@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Store.Core.Inventories;
 using Store.DataAccess.Repositories;
 using System;
@@ -13,9 +14,13 @@ namespace Store.ApplicationService.Category
     {
         private readonly IRepository<int, category> _repository;
 
-        public CategoryApplicationService(IRepository<int, category> repository)
+        //private readonly IMapper _mapper;
+
+        public CategoryApplicationService(IRepository<int, category> repository /*, IMapper mapper*/)
         {
             _repository = repository;
+            //_mapper = mapper;
+                
         }
 
         public async Task<int> AddCategoryAsync(category category)

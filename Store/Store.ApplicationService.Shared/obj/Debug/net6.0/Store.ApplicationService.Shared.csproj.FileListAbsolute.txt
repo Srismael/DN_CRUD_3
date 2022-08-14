@@ -1,0 +1,11 @@
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\bin\Debug\net6.0\Store.ApplicationService.Shared.deps.json
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\bin\Debug\net6.0\Store.ApplicationService.Shared.dll
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\bin\Debug\net6.0\ref\Store.ApplicationService.Shared.dll
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\bin\Debug\net6.0\Store.ApplicationService.Shared.pdb
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\Store.ApplicationService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\Store.ApplicationService.Shared.AssemblyInfoInputs.cache
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\Store.ApplicationService.Shared.AssemblyInfo.cs
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\Store.ApplicationService.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\Store.ApplicationService.Shared.dll
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\ref\Store.ApplicationService.Shared.dll
+C:\Users\Ismael\source\repos\DN_CRUD_3\Store\Store.ApplicationService.Shared\obj\Debug\net6.0\Store.ApplicationService.Shared.pdb

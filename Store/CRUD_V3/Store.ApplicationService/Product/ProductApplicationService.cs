@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Store.Core.Inventories;
 using Store.DataAccess.Repositories;
 using System;
@@ -13,9 +14,11 @@ namespace Store.ApplicationService.Product
     {
         private readonly IRepository<int, product> _repository;
 
-        public ProductApplicationService(IRepository<int, product> repository)
+        //private readonly IMapper _mapper;
+        public ProductApplicationService(IRepository<int, product> repository/*, IMapper mapper*/)
         {
             _repository = repository;
+            //_mapper = mapper;
         }
 
         public async Task<int> AddProductAsync(product product)

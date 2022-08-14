@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dsnGdWTeT3EmBf7sxTnCONpr+Q5AE2feSZEcwQKTxsz0MHT3AtjLpXmyAA7aWOreNcLr6QzsQbCJnz0B//Rmgg==",
+  "dgSpecHash": "YvUKJAAzzCaOF8kJIGHy1JHofAaX8K08+Ts3anTxq6QDxn1akk+ZWMTnRtn2/lyWkM9LyC7O5D/YrM8GVXr3XQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
+  "projectFilePath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Store",
+    "\\Store\\CRUD_V3",
+    "\\Store\\CRUD_V3\\Store.Api",
+    "\\Store\\Store.ApplicationService.Shared",
+    "\\Store\\Store.ApplicationService.Shared\\Dto",
+    "\\Store\\Store.UnitTest"
+  ],
+  "SelectedNode": "\\Store\\CRUD_V3\\CRUD_V3.sln",
+  "PreviewInSolutionExplorer": false
+}

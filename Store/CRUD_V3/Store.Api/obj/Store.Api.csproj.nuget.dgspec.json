@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj": {}
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj": {
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj",
         "projectName": "Store.Api",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj",
+        "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Api\\Store.Api.csproj",
         "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Api\\obj\\",
+        "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj": {
-                "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj"
+              "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj": {
+                "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj"
               }
             }
           }
@@ -41,18 +41,30 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.14.0, )"
+              "version": "[1.16.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -60,11 +72,19 @@
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[6.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Sinks.MySQL": {
+              "target": "Package",
+              "version": "[4.6.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[6.3.2, )"
             }
           },
           "imports": [
@@ -77,12 +97,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.12, 5.0.12]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -95,35 +109,35 @@
         }
       }
     },
-    "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj": {
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj",
+        "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj",
         "projectName": "Store.ApplicationService",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj",
+        "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj",
         "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.ApplicationService\\obj\\",
+        "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj": {
-                "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj"
+              "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj"
               },
-              "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj"
+              "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj"
               }
             }
           }
@@ -135,8 +149,14 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -156,29 +176,29 @@
         }
       }
     },
-    "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj": {
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
         "projectName": "Store.Core",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
+        "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj",
         "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\obj\\",
+        "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -189,8 +209,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -210,32 +230,32 @@
         }
       }
     },
-    "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj": {
+    "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj",
         "projectName": "Store.DataAccess",
-        "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Ismael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ismael\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj": {
-                "projectPath": "C:\\Users\\Ismael\\source\\repos\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj"
+              "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj": {
+                "projectPath": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core\\Store.Core.csproj"
               }
             }
           }
@@ -247,26 +267,30 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.7, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.11, )"
+              "version": "[6.0.7, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [

@@ -1,0 +1,52 @@
+services:
+  log:
+    environment:
+      MYSQL_DATABASE: Log
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+    image: mysql:8.0.22
+    ports:
+    - published: 3399
+      target: 3306
+    restart: always
+    volumes:
+    - dataFiles_store:/var/lib/mysql:rw
+  logsstore:
+    environment:
+      MYSQL_DATABASE: store
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: root
+    image: mysql:8.0.22
+    ports:
+    - published: 3398
+      target: 3306
+    restart: always
+    volumes:
+    - dataFiles_store:/var/lib/mysql:rw
+  store.api:
+    build:
+      context: C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3
+      dockerfile: Store.Api/Dockerfile
+    depends_on:
+      logsstore:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: storeapi
+    ports:
+    - published: 5022
+      target: 80
+    - target: 80
+    - published: 787
+      target: 443
+    - target: 443
+    restart: always
+    volumes:
+    - C:\Users\Ismael\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Ismael\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
+volumes:
+  dataFiles_store: {}

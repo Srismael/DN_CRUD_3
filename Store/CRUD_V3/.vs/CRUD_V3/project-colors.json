@@ -25,7 +25,32 @@
       "ProjectGuid": "70d6e87d-df80-4b6d-85cf-f295c6a6c280",
       "DisplayName": "docker-compose",
       "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "b693b8c4-3a43-4fed-9834-20719e6b4e3b": {
+      "ProjectGuid": "b693b8c4-3a43-4fed-9834-20719e6b4e3b",
+      "DisplayName": "Store.ApplicationService.Shared",
+      "ColorIndex": 5
+    },
+    "bde07858-3c64-49ba-bad2-9972cd8fe7d5": {
+      "ProjectGuid": "bde07858-3c64-49ba-bad2-9972cd8fe7d5",
+      "DisplayName": "Store.UnitTest",
+      "ColorIndex": 6
+    },
+    "d83aa7e8-eb38-49c8-9bd3-cc28376f7d19": {
+      "ProjectGuid": "d83aa7e8-eb38-49c8-9bd3-cc28376f7d19",
+      "DisplayName": "Store.UnitTest",
+      "ColorIndex": 7
+    },
+    "4a9f8241-c2b7-4ff4-8d48-52c71f6e793a": {
+      "ProjectGuid": "4a9f8241-c2b7-4ff4-8d48-52c71f6e793a",
+      "DisplayName": "Store.UnitTest",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 5
+  "NextColorIndex": 9
 }

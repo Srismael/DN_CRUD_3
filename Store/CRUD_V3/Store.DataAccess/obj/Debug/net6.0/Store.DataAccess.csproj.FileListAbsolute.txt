@@ -1,0 +1,17 @@
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\Store.DataAccess.deps.json
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\Store.DataAccess.runtimeconfig.json
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\Store.DataAccess.dll
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\ref\Store.DataAccess.dll
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\Store.DataAccess.pdb
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\Store.Core.dll
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\bin\Debug\net6.0\Store.Core.pdb
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.AssemblyInfo.cs
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.csproj.CopyComplete
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.dll
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\ref\Store.DataAccess.dll
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.pdb
+C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.DataAccess\obj\Debug\net6.0\Store.DataAccess.genruntimeconfig.cache

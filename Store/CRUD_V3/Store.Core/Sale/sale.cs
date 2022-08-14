@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Store.Core.User;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -12,10 +13,12 @@ namespace Store.Core.Sale
         [Key]
         public int Id { get; set; }
 
-        public int Id_user { get; set; }
-
         public DateTime Date { get; set; }
 
         public decimal Total { get; set; }
+
+        public string status { get; set; }
+
+        public user userID { get; set; }
     }
 }

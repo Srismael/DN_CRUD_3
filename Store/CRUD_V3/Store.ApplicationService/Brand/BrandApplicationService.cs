@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Store.Core.Inventories;
 using Store.DataAccess.Repositories;
 using System;
@@ -12,10 +13,11 @@ namespace Store.ApplicationService.Brand
     public class BrandApplicationService : IBrandApplicationService
     {
         private readonly IRepository<int, brand> _repository;
-
-        public BrandApplicationService(IRepository<int, brand> repository)
+       // private readonly IMapper _mapper;
+        public BrandApplicationService(IRepository<int, brand> repository /*, IMapper mapper*/)
         {
             _repository = repository;
+            //_mapper = mapper;
         }
 
         public async Task<int> AddBrandAsync(brand brand)

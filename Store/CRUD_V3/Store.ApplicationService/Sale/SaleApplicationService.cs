@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Store.Core.Sale;
 using Store.DataAccess.Repositories;
 using System;
@@ -13,10 +14,11 @@ namespace Store.ApplicationService.Sale
     {
         private readonly IRepository<int, sale> _repository;
 
-
-        public SaleApplicationService(IRepository<int, sale> repository)
+        //private readonly IMapper _mapper;
+        public SaleApplicationService(IRepository<int, sale> repository /*, IMapper mapper*/)
         {
             _repository = repository;
+            //_mapper = mapper;
         }
 
         public async Task<int> AddSaleAsync(sale sale)
