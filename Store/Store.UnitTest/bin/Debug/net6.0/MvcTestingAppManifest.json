@@ -1,7 +1,0 @@
-{
-  "Store.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Api",
-  "Store.ApplicationService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService",
-  "Store.ApplicationService.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared",
-  "Store.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.Core",
-  "Store.DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Ismael\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess"
-}

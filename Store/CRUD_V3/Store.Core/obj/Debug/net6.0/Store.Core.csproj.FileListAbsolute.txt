@@ -9,3 +9,15 @@ C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0
 C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.dll
 C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\ref\Store.Core.dll
 C:\Users\Ismael\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.pdb
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\bin\Debug\net6.0\Store.Core.deps.json
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\bin\Debug\net6.0\Store.Core.dll
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\bin\Debug\net6.0\Store.Core.pdb
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.csproj.AssemblyReference.cache
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.AssemblyInfoInputs.cache
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.AssemblyInfo.cs
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.csproj.CoreCompileInputs.cache
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.dll
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\refint\Store.Core.dll
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\Store.Core.pdb
+C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Core\obj\Debug\net6.0\ref\Store.Core.dll

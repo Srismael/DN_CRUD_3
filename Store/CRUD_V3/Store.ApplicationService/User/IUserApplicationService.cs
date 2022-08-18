@@ -18,5 +18,6 @@ namespace Store.ApplicationService.User
         Task<user> GetUserAsync(int userId);
 
         Task EditUserAsync(user user);
+        
     }
 }
