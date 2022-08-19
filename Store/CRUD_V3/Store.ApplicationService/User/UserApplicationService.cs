@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Store.Core.User;
 using Store.DataAccess.Repositories;
+using Store.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,12 +15,12 @@ namespace Store.ApplicationService.User
     {
         private readonly IRepository<int, user> _repository;
 
-        //private readonly IMapper _mapper;
+        private readonly IMapper _mapper;
 
-        public UserApplicationService(IRepository<int, user> repository /*, IMapper mapper*/)
+        public UserApplicationService(IRepository<int, user> repository , IMapper mapper)
         {
             _repository = repository;
-            //_mapper = mapper;
+            _mapper = mapper;
 
         }
 
@@ -39,14 +40,24 @@ namespace Store.ApplicationService.User
             await _repository.UpdateAsync(user);
         }
 
-        public async Task<List<user>> GetAllUserAsync()
+        public async Task<List<userDto>> GetAllUserAsync()
         {
-            return await _repository.GetAllAsync().ToListAsync();
+            
+
+            var u = await _repository.GetAllAsync().ToListAsync();
+
+            List<userDto> users = _mapper.Map<List<userDto>>(u);
+
+            return users;
         }
 
-        public Task<user> GetUserAsync(int userId)
+        public async Task<userDto> GetUserAsync(int userId)
         {
-            return _repository.GetAsync(userId);
+            var user = await _repository.GetAsync(userId);
+
+            userDto dto = _mapper.Map<userDto>(user);
+
+            return dto;
         }
 
     }

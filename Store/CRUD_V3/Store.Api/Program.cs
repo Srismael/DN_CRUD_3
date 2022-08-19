@@ -65,8 +65,7 @@ builder.Services.AddTransient<IRepository<int, user>, Repository<int, user>>();
 builder.Services.AddTransient<IRepository<int, sale>, SaleRepository>();
 builder.Services.AddTransient<IRepository<int, sale_detail>, SaleDetailRepository>();
 
-//builder.Services.AddTransient<IRepository<int, Profile>, ProfilesRepository>();
-//builder.Services.AddAutoMapper(typeof(Store.ApplicationService.MapperProfile));
+builder.Services.AddAutoMapper(typeof(Store.ApplicationService.MapperProfile));
 
 
 

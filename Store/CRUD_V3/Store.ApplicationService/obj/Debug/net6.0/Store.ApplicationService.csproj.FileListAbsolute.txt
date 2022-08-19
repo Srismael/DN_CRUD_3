@@ -32,3 +32,5 @@ C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.ApplicationService\obj
 C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net6.0\refint\Store.ApplicationService.dll
 C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net6.0\Store.ApplicationService.pdb
 C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.ApplicationService\obj\Debug\net6.0\ref\Store.ApplicationService.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net6.0\Store.ApplicationService.Shared.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.ApplicationService\bin\Debug\net6.0\Store.ApplicationService.Shared.pdb

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Store.ApplicationService.User;
 using Store.Core.User;
+using Store.Dto;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -23,14 +24,14 @@ namespace Store.Api.Controllers
 
         // GET: api/<UserController>
         [HttpGet]
-        public async Task<IEnumerable<user>> Get()
+        public async Task<IEnumerable<userDto>> Get()
         {
             return await _manager.GetAllUserAsync();
         }
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
-        public async Task<user> Get(int id)
+        public async Task<userDto> Get(int id)
         {
             return await _manager.GetUserAsync(id);
         }

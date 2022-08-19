@@ -13,7 +13,7 @@ namespace Store.ApplicationService
 
         public MapperProfile()
         {
-            //CreateMap<Core.User.user, userDTO>
+            CreateMap<Core.User.user, Store.Dto.userDto>();
         }
     }
 }

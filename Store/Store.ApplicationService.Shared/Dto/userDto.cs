@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Store.Dto
 {
-    public class UserDto
+    public class userDto
     {
         public int Id { get; set; }
 
@@ -23,9 +23,6 @@ namespace Store.Dto
         [Required]
         public string? Email { get; set; }
 
-        public DateTime CreateDate { get; set; }
-
-        public bool Status { get; set; }
 
 
         /*public List<sale> sales { get; set; }

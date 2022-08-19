@@ -170,3 +170,5 @@ C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Api\obj\Debug\net6.0\r
 C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Api\obj\Debug\net6.0\Store.Api.pdb
 C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Api\obj\Debug\net6.0\Store.Api.genruntimeconfig.cache
 C:\Users\navi3\Source\Repos\DN_CRUD_3\Store\CRUD_V3\Store.Api\obj\Debug\net6.0\ref\Store.Api.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.Api\bin\Debug\net6.0\Store.ApplicationService.Shared.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.Api\bin\Debug\net6.0\Store.ApplicationService.Shared.pdb

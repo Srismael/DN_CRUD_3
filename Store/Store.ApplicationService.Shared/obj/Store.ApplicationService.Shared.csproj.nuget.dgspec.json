@@ -11,7 +11,7 @@
         "projectName": "Store.ApplicationService.Shared",
         "projectPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\Store.ApplicationService.Shared.csproj",
         "packagesPath": "C:\\Users\\navi3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\navi3\\Source\\Repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\obj\\",
+        "outputPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\navi3\\AppData\\Roaming\\NuGet\\NuGet.Config",

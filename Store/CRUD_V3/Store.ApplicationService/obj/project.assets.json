@@ -418,6 +418,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Store.ApplicationService.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Store.ApplicationService.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.ApplicationService.Shared.dll": {}
+        }
+      },
       "Store.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1022,6 +1032,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Store.ApplicationService.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Store.ApplicationService.Shared/Store.ApplicationService.Shared.csproj",
+      "msbuildProject": "../../Store.ApplicationService.Shared/Store.ApplicationService.Shared.csproj"
+    },
     "Store.Core/1.0.0": {
       "type": "project",
       "path": "../Store.Core/Store.Core.csproj",
@@ -1036,6 +1051,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
+      "Store.ApplicationService.Shared >= 1.0.0",
       "Store.Core >= 1.0.0",
       "Store.DataAccess >= 1.0.0"
     ]
@@ -1050,7 +1066,7 @@
       "projectName": "Store.ApplicationService",
       "projectPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj",
       "packagesPath": "C:\\Users\\navi3\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\navi3\\Source\\Repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\obj\\",
+      "outputPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\navi3\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1072,6 +1088,9 @@
             },
             "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj": {
               "projectPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.DataAccess\\Store.DataAccess.csproj"
+            },
+            "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\Store.ApplicationService.Shared.csproj": {
+              "projectPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\Store.ApplicationService.Shared.csproj"
             }
           }
         }

@@ -2081,6 +2081,7 @@
           "Serilog.AspNetCore": "6.0.1",
           "Serilog.Sinks.MySQL": "4.6.0",
           "Store.ApplicationService": "1.0.0",
+          "Store.ApplicationService.Shared": "1.0.0",
           "Swashbuckle.AspNetCore": "6.3.2"
         },
         "compile": {
@@ -2098,6 +2099,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "Store.ApplicationService.Shared": "1.0.0",
           "Store.Core": "1.0.0",
           "Store.DataAccess": "1.0.0"
         },
@@ -2106,6 +2108,16 @@
         },
         "runtime": {
           "bin/placeholder/Store.ApplicationService.dll": {}
+        }
+      },
+      "Store.ApplicationService.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Store.ApplicationService.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.ApplicationService.Shared.dll": {}
         }
       },
       "Store.Core/1.0.0": {
@@ -6195,6 +6207,11 @@
       "type": "project",
       "path": "../Store.ApplicationService/Store.ApplicationService.csproj",
       "msbuildProject": "../Store.ApplicationService/Store.ApplicationService.csproj"
+    },
+    "Store.ApplicationService.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Store.ApplicationService.Shared/Store.ApplicationService.Shared.csproj",
+      "msbuildProject": "../../Store.ApplicationService.Shared/Store.ApplicationService.Shared.csproj"
     },
     "Store.Core/1.0.0": {
       "type": "project",

@@ -1716,6 +1716,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
+          "Store.ApplicationService.Shared": "1.0.0",
           "Store.Core": "1.0.0",
           "Store.DataAccess": "1.0.0"
         },
@@ -1724,6 +1725,16 @@
         },
         "runtime": {
           "bin/placeholder/Store.ApplicationService.dll": {}
+        }
+      },
+      "Store.ApplicationService.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Store.ApplicationService.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Store.ApplicationService.Shared.dll": {}
         }
       },
       "Store.Core/1.0.0": {
@@ -4945,6 +4956,11 @@
       "path": "../Store.ApplicationService/Store.ApplicationService.csproj",
       "msbuildProject": "../Store.ApplicationService/Store.ApplicationService.csproj"
     },
+    "Store.ApplicationService.Shared/1.0.0": {
+      "type": "project",
+      "path": "../../Store.ApplicationService.Shared/Store.ApplicationService.Shared.csproj",
+      "msbuildProject": "../../Store.ApplicationService.Shared/Store.ApplicationService.Shared.csproj"
+    },
     "Store.Core/1.0.0": {
       "type": "project",
       "path": "../Store.Core/Store.Core.csproj",
@@ -4968,6 +4984,7 @@
       "Serilog.AspNetCore >= 6.0.1",
       "Serilog.Sinks.MySQL >= 4.6.0",
       "Store.ApplicationService >= 1.0.0",
+      "Store.ApplicationService.Shared >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.3.2"
     ]
   },
@@ -5000,6 +5017,9 @@
           "projectReferences": {
             "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj": {
               "projectPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\CRUD_V3\\Store.ApplicationService\\Store.ApplicationService.csproj"
+            },
+            "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\Store.ApplicationService.Shared.csproj": {
+              "projectPath": "C:\\Users\\navi3\\source\\repos\\DN_CRUD_3\\Store\\Store.ApplicationService.Shared\\Store.ApplicationService.Shared.csproj"
             }
           }
         }
