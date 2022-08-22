@@ -68,3 +68,6 @@ C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\bin\Debug\Store.Core.pdb
 C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\obj\Debug\docker-compose.dcproj.CopyComplete
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\bin\Debug\Store.ApplicationService.Shared.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\bin\Debug\Store.ApplicationService.Shared.pdb

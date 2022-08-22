@@ -19,6 +19,6 @@ namespace Store.Core.Sale
 
         public string status { get; set; }
 
-        public user userID { get; set; }
+        public user user { get; set; }
     }
 }

@@ -167,3 +167,5 @@ C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.UnitTest\obj\Debug\net
 C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.UnitTest\obj\Debug\net6.0\Store.UnitTest.pdb
 C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.UnitTest\obj\Debug\net6.0\Store.UnitTest.genruntimeconfig.cache
 C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.UnitTest\obj\Debug\net6.0\ref\Store.UnitTest.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.UnitTest\bin\Debug\net6.0\Store.ApplicationService.Shared.dll
+C:\Users\navi3\source\repos\DN_CRUD_3\Store\CRUD_V3\Store.UnitTest\bin\Debug\net6.0\Store.ApplicationService.Shared.pdb

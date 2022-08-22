@@ -59,10 +59,10 @@ namespace Store.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int?>("BrandIdId")
+                    b.Property<int?>("BrandId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CategoryIdId")
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
@@ -79,9 +79,9 @@ namespace Store.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("BrandIdId");
+                    b.HasIndex("BrandId");
 
-                    b.HasIndex("CategoryIdId");
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("products");
                 });
@@ -101,12 +101,12 @@ namespace Store.DataAccess.Migrations
                     b.Property<string>("status")
                         .HasColumnType("longtext");
 
-                    b.Property<int?>("userIDId")
+                    b.Property<int?>("userId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("userIDId");
+                    b.HasIndex("userId");
 
                     b.ToTable("sales");
                 });
@@ -155,6 +155,9 @@ namespace Store.DataAccess.Migrations
                     b.Property<DateTime>("Birthday")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime(6)");
+
                     b.Property<string>("Email")
                         .HasColumnType("longtext");
 
@@ -170,6 +173,9 @@ namespace Store.DataAccess.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("longtext");
 
+                    b.Property<bool>("Status")
+                        .HasColumnType("tinyint(1)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Users");
@@ -177,26 +183,26 @@ namespace Store.DataAccess.Migrations
 
             modelBuilder.Entity("Store.Core.Inventories.product", b =>
                 {
-                    b.HasOne("Store.Core.Inventories.brand", "BrandId")
+                    b.HasOne("Store.Core.Inventories.brand", "Brand")
                         .WithMany("poducts")
-                        .HasForeignKey("BrandIdId");
+                        .HasForeignKey("BrandId");
 
-                    b.HasOne("Store.Core.Inventories.category", "CategoryId")
+                    b.HasOne("Store.Core.Inventories.category", "Category")
                         .WithMany("Products")
-                        .HasForeignKey("CategoryIdId");
+                        .HasForeignKey("CategoryId");
 
-                    b.Navigation("BrandId");
+                    b.Navigation("Brand");
 
-                    b.Navigation("CategoryId");
+                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("Store.Core.Sale.sale", b =>
                 {
-                    b.HasOne("Store.Core.User.user", "userID")
+                    b.HasOne("Store.Core.User.user", "user")
                         .WithMany("sales")
-                        .HasForeignKey("userIDId");
+                        .HasForeignKey("userId");
 
-                    b.Navigation("userID");
+                    b.Navigation("user");
                 });
 
             modelBuilder.Entity("Store.Core.Sale.sale_detail", b =>

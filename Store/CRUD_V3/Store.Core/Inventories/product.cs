@@ -16,8 +16,10 @@ namespace Store.Core.Inventories
         public string Description { get; set; }
         public decimal Price { get; set; }
 
-        public category CategoryId { get; set; }
 
-        public brand BrandId { get; set; }
+
+        public category Category { get; set; }
+
+        public brand Brand { get; set; }
     }
 }

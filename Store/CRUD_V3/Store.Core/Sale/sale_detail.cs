@@ -10,6 +10,7 @@ namespace Store.Core.Sale
 {
     public class sale_detail
     {
+        [Key]
         public int Id { get; set; }
         public int Id_sale { get; set; }
 

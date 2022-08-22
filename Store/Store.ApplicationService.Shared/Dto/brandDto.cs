@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Store.Dto
 {
-    internal class brandDto
+    public class brandDto
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+
+        public List<productDto> poductsDto { get; set; }
+
+        public brandDto()
+        {
+            poductsDto = new List<productDto>();
+
+
+        }
     }
 }
