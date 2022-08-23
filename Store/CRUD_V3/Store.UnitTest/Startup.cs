@@ -53,6 +53,8 @@ namespace Store.UnitTest
             services.AddTransient<IRepository<int, sale>, SaleRepository>();
             services.AddTransient<IRepository<int, sale_detail>, SaleDetailRepository>();
 
+            services.AddAutoMapper(typeof(Store.ApplicationService.MapperProfile));
+
 
         }
 

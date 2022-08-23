@@ -54,12 +54,13 @@ namespace Store.UnitTest
 
         }
 
+        [Test]
         public void AddBrandTest()
         {
             var repository = server.Host.Services.GetService<IBrandApplicationService>();
 
             product productTest = new product {
-                Id = 1,
+                
                 Name = "laptop",
                 Stock = 11,
                 Description = "laptop eficaas", 
@@ -68,19 +69,26 @@ namespace Store.UnitTest
                 
             };
 
+
             brand brandTest = new brand
             {
-                Id = 1,
                 Name = "Microsoft",
                 Description = "marca",
-                
-
 
             };
 
 
 
-           // var addbrand = repository.AddBrandAsync(brand);
+
+            var addbrand = repository.AddBrandAsync(brandTest);
+            Assert.Pass();
+        }
+
+
+        public void UpdateBranTest()
+        {
+            var repository = server.Host.Services.GetService<IBrandApplicationService>();
+
         }
 
     }

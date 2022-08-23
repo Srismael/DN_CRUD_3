@@ -24,16 +24,19 @@ namespace Store.Api.Controllers
 
         // GET: api/<UserController>
         [HttpGet]
-        public async Task<IEnumerable<userDto>> Get()
+        public async Task<List<userDto>> Get()
         {
-            return await _manager.GetAllUserAsync();
+            List<userDto> users = await _manager.GetAllUserAsync();
+            return users;
         }
 
         // GET api/<UserController>/5
         [HttpGet("{id}")]
         public async Task<userDto> Get(int id)
         {
-            return await _manager.GetUserAsync(id);
+            userDto user = await _manager.GetUserAsync(id);
+
+            return user;
         }
 
         // POST api/<UserController>

@@ -8,7 +8,7 @@ namespace Store.Dto
 {
     public class categoryDto
     {
-        public int Id { get; set; }
+        
         public string Name { get; set; }
         public string Description { get; set; }
 

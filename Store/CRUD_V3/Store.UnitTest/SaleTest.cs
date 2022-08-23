@@ -48,5 +48,15 @@ namespace Store.UnitTest
             Assert.Pass();
         }
 
+        public void AddSaleTest()
+        {
+            var repository = server.Host.Services.GetService<ISaleApplicationService>();
+        }
+
+        public void UpdateSaleTest()
+        {
+            var repository = server.Host.Services.GetService<ISaleApplicationService>();
+        }
+
     }
 }

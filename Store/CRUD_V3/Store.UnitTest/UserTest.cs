@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.DependencyInjection;
 using Store.ApplicationService.User;
+using Store.Dto;
+using System.Xml.Linq;
 
 namespace Store.UnitTest
 {
@@ -49,6 +51,27 @@ namespace Store.UnitTest
         }
 
 
-        public void AddUserTest() { }
+        public void AddUserTest() {
+
+            var repository = server.Host.Services.GetService<IUserApplicationService>();
+
+            userDto UserDtoTest = new userDto();
+            {
+                Name = "ismael",
+                LastName = "Martinez",
+                Phone = ""
+
+
+
+            };
+
+
+        }
+
+
+        public void UpdateUserTest() {
+            var repository = server.Host.Services.GetService<IUserApplicationService>();
+            userDto UserDtoTest = new userDto();
+        }
     }
 }

@@ -54,5 +54,10 @@ namespace Store.UnitTest
             //var addcategory = repository.AddCategoryAsync(1, "hola", "Marca ", 1);
         }
 
+        public void UpdateCategoryTest()
+        {
+            var repository = server.Host.Services.GetService<ICategoryApplicationService>();
+        }
+
     }
 }
